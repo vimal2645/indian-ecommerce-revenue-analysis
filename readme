@@ -1,0 +1,45 @@
+### Indian E‑Commerce Revenue & Pricing Analysis
+This project analyzes Indian e‑commerce transactions to understand how revenue is driven by product categories, discounts, customer segments, and regions.
+
+### Dataset
+Source: Kaggle – Indian E‑commerce Pricing, Revenue Growth Dataset.
+
+30,600 rows, 16 columns (order details, state, zone, category, brand_type, customer_age, gender, pricing, discount_percent, revenue, events, competition, inventory).
+
+### Tech stack
+Python, Jupyter Notebook
+
+Libraries: pandas, numpy, matplotlib / seaborn
+
+### What was done
+Loaded and inspected the CSV, converted order_date to datetime.
+
+Created features: order_month, order_year, age_band, discount_band.
+
+Calculated KPIs: total revenue, total orders, total units, average order value.
+
+Analyzed revenue by category, brand_type, customer_gender, age_band, state, and zone.
+
+Studied impact of different discount bands overall and by product category.
+
+Visualized trends: monthly revenue line chart; bar charts for category, brand, discount, age, and region.
+
+Exported aggregated tables (monthly, category, age, zone, discount) for BI dashboard use.
+
+#### Key findings (example style)
+Premium Lifestyle and Electronics are the top revenue‑generating categories.
+
+A few zones and states contribute a disproportionately high share of revenue.
+
+Customers in the 26–35 age band drive the largest revenue share.
+
+Moderate discount levels (e.g., 10–20%) often achieve strong revenue without extreme price cuts.
+
+#### business value
+The analysis helps an online retailer:
+
+Focus marketing on high‑value categories, regions, and age segments.
+
+Design smarter, category‑specific discount strategies.
+
+Support data‑driven pricing and campaign planning using clear, visual insights.
